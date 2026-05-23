@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portefølje | Steffen Unneberg</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Steffen Unneberg</a>
+      <nav class="nav-links" aria-label="Primær navigasjon">
+        <a href="#about">Om meg</a>
+        <a href="#experience">Erfaring</a>
+        <a href="#skills">Kompetanse</a>
+        <a href="#references">Referanser</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
+        <a id="downloadCv" class="button outline" href="CV.docx" download="CV.docx" style="text-decoration:none">Last ned CV</a>
+        <a class="button outline" href="SHU - Referanse (2025).pdf" target="_blank" style="text-decoration:none">Se referanse</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Bytt mørk modus">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Hei, jeg er</p>
+          <h1 id="heroName">Steffen Unneberg</h1>
+          <p id="heroTitle" class="hero-subtitle">IT-utvikler</p>
+          <p id="heroSummary" class="hero-copy">
+            Erfaren IT-utvikler med over 5 års erfaring, spesialisert på Angular,
+            React, Node.js og moderne webapplikasjoner. Jeg bygger effektive brukergrensesnitt,
+            optimaliserer API‑flyt og leverer driftssikre løsninger.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#experience">Erfaring</a>
+            <a class="button outline" href="#contact">La oss snakke</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <p>Kontakt</p>
+            <h2>Steffen-hu95@hotmail.com</h2>
+            <p>Telefon: 94173267</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="section-label">Om meg</p>
+          <h2>Erfaren utvikler med praktisk webfokus.</h2>
+          <p>
+            Jeg er en erfaren IT-utvikler med over 5 års erfaring i utvikling av
+            moderne webapplikasjoner. Jeg har jobbet med design og oppgradering av
+            grensesnitt, og bygger robuste løsninger for live dataoppdatering,
+            API-optimalisering og state management.
+          </p>
+          <p>
+            Arbeidet mitt kombinerer frontend- og backend-kompetanse, med fokus på
+            brukeropplevelse, vedlikeholdbarhet og skalerbarhet.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span>5+</span>
+            <p>Års erfaring</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section-label">Erfaring</p>
+        <h2>Yrkesbakgrunn</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Fullstack-utvikler</h3>
+            <p><strong>Aventia Media AS</strong> | juni 2019 – august 2025</p>
+            <p>Designet, utviklet og vedlikeholdt webapplikasjoner med Angular og Node.js.
+            Mentor for juniorutviklere, gjennomførte kodegjennomganger og moderniserte
+            eksisterende produkter med live dataoppdatering og API-optimalisering.</p>
+          </article>
+          <article class="project-card">
+            <h3>Utvikler</h3>
+            <p><strong>Rada Labs AS</strong> | januar 2016 – mai 2019</p>
+            <p>Utviklet prototype for jobbsøkningsappen Joober med React og C#.
+            Deltok i Hackathon og utviklet frontend-komponenter og API-er for Click.
+            Arbeidet bidro til økt synlighet og samarbeid med universitetet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-label">Utdanning</p>
+        <h2>Akademisk bakgrunn</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Bachelor i IT og Informasjonssystemer</h3>
+            <p><strong>Universitetet i Sørøst-Norge</strong> | Fullført 2015</p>
+            <p>Studerte informasjonssystemer med fokus på praktisk utvikling, systemarkitektur
+            og digital kommunikasjon.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label">Kompetanse</p>
+        <h2>Hva jeg kan tilby</h2>
+        <div id="skillsList" class="skills-grid">
+          <span>C#</span>
+          <span>TypeScript</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Angular</span>
+          <span>Node.js</span>
+          <span>Bootstrap</span>
+          <span>NgRx</span>
+          <span>SignalR</span>
+          <span>AWS</span>
+          <span>Git / GitHub</span>
+          <span>MySQL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="references">
+      <div class="container">
+        <p class="section-label">Referanser</p>
+        <h2>Referansebrev</h2>
+        <div id="referencesList" class="project-grid">
+          <article class="project-card">
+            <h3>Kjell Arne Brudvik</h3>
+            <p><strong>Aventia Media AS</strong></p>
+            <p>Referansebrev tilgjengelig i <a href="SHU - Referanse (2025).pdf" target="_blank">SHU - Referanse (2025).pdf</a>.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2>Klar for å bygge noe bra?</h2>
+          <p>Send meg en melding, så snakker vi om ditt neste prosjekt.</p>
+        </div>
+        <form id="contactForm" class="contact-form" style="display:flex;flex-direction:column;gap:0.75rem;min-width:260px">
+          <input id="contactName" type="text" name="name" placeholder="Ditt navn" required />
+          <input id="contactEmail" type="email" name="email" placeholder="din@mail.com" required />
+          <textarea id="contactMessage" name="message" placeholder="Hvordan kan jeg hjelpe?" rows="4" required></textarea>
+          <button class="button primary" type="submit">Send melding</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Steffen Unneberg. Laget med HTML, CSS og JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
